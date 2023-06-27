@@ -9,7 +9,7 @@ const ListadoPacientes = ({ pacientes, setPaciente1,eliminarPaciente }) => {
         <h2 className="font-bold text-3xl text-center">Listado de Pacientes</h2>
       <p className="text-lg mt-5 text-center mb-10">
         Administra tus {""}
-        <span className="text-indigo-600 font-bold">Pacientes y Citas</span>
+        <span className="text-sky-900 font-bold">Pacientes y Citas</span>
       </p>
       {pacientes.map((ele) => (
         <Pacientes key={ele.id} 
@@ -21,7 +21,7 @@ const ListadoPacientes = ({ pacientes, setPaciente1,eliminarPaciente }) => {
       </> : <><h2 className="font-bold text-3xl text-center">No Hay Pacientes</h2>
       <p className="text-lg mt-5 text-center mb-10">
         Inserte Pacientes {""}
-        <span className="text-indigo-600 font-bold">Para Mostar</span>
+        <span className="text-sky-900 font-bold">Para Mostar</span>
       </p></>
       }      
     </div>

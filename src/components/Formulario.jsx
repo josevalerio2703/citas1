@@ -78,7 +78,7 @@ const Formulario = ({ pacientes, setPacientes, paciente1, setPaciente1 }) => {
       </h2>
       <p className="text-lg mt-5 text-center mb-10">
         Añade Pacientes y {""}
-        <span className="text-indigo-600 font-bold">Administralo</span>
+        <span className="text-sky-900 font-bold">Administralo</span>
       </p>
 
       <form
@@ -177,7 +177,7 @@ const Formulario = ({ pacientes, setPacientes, paciente1, setPaciente1 }) => {
         </div>
         <input
           type="submit"
-          className="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer transition-all"
+          className="bg-sky-900 w-full p-3 text-white uppercase font-bold hover:bg-sky-950 cursor-pointer transition-all"
           value={paciente1.id ? 'Editar Paciente' : 'Agregar Paciente' }
         />
       </form>
