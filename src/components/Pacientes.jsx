@@ -38,7 +38,7 @@ const Pacientes = ({ ele, setPaciente1, eliminarPaciente }) => {
       </p>
       <div className="flex justify-between mt-10">
         <button
-          className="bg-indigo-600 hover:bg-indigo-700 py-2 px-10 rounded text-white font-bold uppercase"
+          className="bg-sky-900 hover:bg-sky-950 py-2 px-10 rounded text-white font-bold uppercase"
           onClick={() => setPaciente1(ele)}
         >
           Editar
